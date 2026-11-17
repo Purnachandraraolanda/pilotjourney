@@ -76,8 +76,7 @@ export const pricingHighlightData = {
   description: "No burden of one-stretch payments. Our stage-wise fee structure ensures you pay only for what you need, when you need it. Complete transparency in every step of your aviation journey.",
   benefits: [
     "Stage-wise payment structure",
-    "No hidden costs or surprises",
-    "Flexible payment options",
+    
     "Complete cost breakdown upfront"
   ]
 };

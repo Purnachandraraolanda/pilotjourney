@@ -39,10 +39,9 @@ export const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Facebook, href: 'https://www.facebook.com/edu9careerguide/', label: 'Facebook' },
+    { icon: Instagram, href: 'https://www.instagram.com/edu9careerguide/', label: 'Instagram' },
+    { icon: Twitter, href: 'https://x.com/edu9careerguide', label: 'Twitter' },
   ];
 
   return (
@@ -67,7 +66,12 @@ export const Footer = () => {
               </div>
 
               {/* Quick Form */}
-              <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e">Enquire Now!</button>
+              
+              <a href="#top">
+              <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e">
+                Enquire Now!
+              </button>
+              </a>
             </div>
           </div>
 
@@ -200,7 +204,7 @@ export const Footer = () => {
                 © {new Date().getFullYear()} Edu9 Career Guidance. All rights reserved.
               </p>
               <div className="flex items-center gap-6">
-                <a href="#" className="text-slate-500 hover:text-white text-sm transition-colors">
+                <a href="/privacy-policy" className="text-slate-500 hover:text-white text-sm transition-colors">
                   Privacy Policy
                 </a>
                 <a href="#" className="text-slate-500 hover:text-white text-sm transition-colors">

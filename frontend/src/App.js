@@ -16,6 +16,7 @@ import SuccessStoriesPage from "./components/SuccessStoriesPage";
 import BoardVerificationPage from "./components/BoardVerificationPage";
 import DGCAGroundClassesPage from "./components/DGCAGroundClassesPage";
 import AdminRegistrations from "./components/AdminRegistrations";
+import PrivacyPolicyPage from "./components/PrivacyPolicyPage";
 
 const LandingPage = () => {
   return (
@@ -44,6 +45,9 @@ function App() {
           <Route path="/board-verification" element={<BoardVerificationPage />} />
           <Route path="/dgca-ground-classes" element={<DGCAGroundClassesPage />} />
           <Route path="/admin/registrations" element={<AdminRegistrations />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+
+          
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />

@@ -17,7 +17,7 @@ export const Navbar = () => {
   }, []);
 
   const handleGetStarted = () => {
-    window.open('https://starsite.in/projects/edu9.in/', '_blank');
+    window.open('https://bookings.edu9.in/#/2026', '_blank');
   };
 
   return (
