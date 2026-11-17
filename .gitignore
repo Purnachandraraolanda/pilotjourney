@@ -90,3 +90,9 @@ android-sdk/ -e
 credentials.json
 *.key
 .credentials
+
+MONGO_URL=mongodb://localhost:27017
+DB_NAME=test_database
+NEXT_PUBLIC_BASE_URL=https://pilotjourney-1.preview.emergentagent.com
+
+
